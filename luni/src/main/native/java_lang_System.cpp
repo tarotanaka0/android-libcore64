@@ -35,7 +35,7 @@
 #include <unistd.h>
 
 #if defined(__APPLE__)
-#include <mach/mach_time.h>;
+#include <mach/mach_time.h>
 #endif
 
 static void System_log(JNIEnv* env, jclass, jchar type, jstring javaMessage, jthrowable exception) {
